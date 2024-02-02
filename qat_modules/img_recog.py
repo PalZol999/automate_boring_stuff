@@ -1,4 +1,5 @@
 import pyautogui
+import time
 
 def find_and_click(img_path):
     try:
@@ -6,6 +7,7 @@ def find_and_click(img_path):
         
         if location is not None:
             x, y = pyautogui.center(location)
+            time.sleep(0.5)
             pyautogui.click(x, y)
             print(f"Clicked on the image at ({x}, {y})")
         else:
