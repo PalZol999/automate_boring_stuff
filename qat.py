@@ -1,4 +1,4 @@
-'''#! python3'''
+#! python3
 import sys
 import pyautogui
 import time
@@ -11,7 +11,7 @@ from qat_modules.explorer import explorer
 #open the IJ
 ij_path = r'C:\Users\zoltan\Desktop\Letoltes\WebDev\GUI_auto\images\ij.png'
 find_and_click(ij_path)
-time.sleep(7)
+time.sleep(8)
 
 #search the branch
 branch_search()
