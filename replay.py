@@ -1,4 +1,3 @@
-#! python3
 import pyautogui
 import time
 from qat_modules.img_recog import find_and_click

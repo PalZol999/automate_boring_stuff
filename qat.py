@@ -1,4 +1,3 @@
-#! python3
 import sys
 import pyautogui
 import time
@@ -48,7 +47,7 @@ time.sleep(1)
 
 # apply and run
 apply_run()
-time.sleep(5)
+time.sleep(4)
 
 #open collab page
 explorer()
@@ -58,5 +57,3 @@ pyautogui.click(803, 61)
 pyautogui.typewrite(f'https://collab.twint.ch/jira/browse/QAT-{input_text}')
 time.sleep(1)
 pyautogui.press('enter') 
-
-
